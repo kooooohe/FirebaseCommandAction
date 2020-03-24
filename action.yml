@@ -1,0 +1,7 @@
+name: "FirebaseCMDAction"
+description: "Use firebase command"
+author: "kooooohe"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
