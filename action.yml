@@ -5,4 +5,3 @@ author: "kooooohe"
 runs:
   using: "docker"
   image: "Dockerfile"
-  entrypoint: "firebase"
