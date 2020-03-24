@@ -1,0 +1,14 @@
+# This is a basc workflow to help you get started with Actions
+
+name: Workflow to test firebase command action
+on:
+  push:
+jobs:
+  build:
+    name: test show version
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: ./
+      with:
+        args: '--version'
